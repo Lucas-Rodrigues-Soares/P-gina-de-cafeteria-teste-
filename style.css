@@ -1,0 +1,373 @@
+body {
+  background-color: #121212;
+  margin: 30px;
+}
+
+
+.navegação {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  position: relative;
+  color: white;
+  gap:30px;
+  backdrop-filter: blur(0px);
+  z-index: 10;
+  
+}
+
+
+
+.link {
+  display: inline-block;
+  text-align: center;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-size: 31px;
+  color: white;
+}
+
+
+
+li {
+  list-style: none;
+  display: ;
+  padding-bottom: 1px;
+  margin: 0 0px 0 45px;
+}
+
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0 0px 0 198px;
+}
+
+
+
+.cafe {
+  font-size: 60px;
+  color: white;
+  
+}
+
+
+
+.paragrafo_cardapio {
+  font-size: 34px;
+  color: gainsboro;
+  margin: 0 0 60px 0;
+  font-family: Georgia;
+  opacity: 0;
+  transform: transLateY(10px);
+  animation:aparecer 3.5s forwards;
+}
+
+
+
+.imagem_principal {
+  position: absolute;
+  border-radius: 100%;
+  margin: 0px 10px 0px 540px;
+  height: 350px;
+  transform: transLateY(140px);
+  animation: flutuar 8s ease-in-out infinite;
+}
+
+
+
+.botao_pedido {
+  margin: 20px;
+  font-size: 28px;
+  color: white;
+  text-decoration: none;
+  border: solid 1px #2C1A11;
+  padding: 17px;
+  background-color: #2C1A11 ;
+  border-radius: 17px;
+  box-shadow: 0 0 50px 3px black;
+  font-family: Georgia;
+  opacity: 0;
+  transform: transLateY(100px);
+  animation:aparecer 4.5s forwards;
+}
+
+
+
+.descrisao {
+  height: 120px;
+  font-size: 25px;
+  margin: 0;
+  opacity: 0;
+  transform: transLateY(100px);
+  animation:aparecer 2.5s forwards;
+}
+
+
+
+.div_pai{
+  align-content: center;
+  text-align: center;
+  margin: 60px;
+  display: flex;
+  gap:20px;
+  margin: 87px 0 50px 0;
+}
+
+
+
+.caixas {
+  border: solid 1px ;
+  border-radius: 17px;
+  margin: 30px 0 55px 0;
+  box-shadow: 0 0 15px 1px  gray;
+  background-color: transparent;
+  background: radial-gradient(circle, gray 1%, transparent);
+  height: 380px;
+  width: 260px;
+  opacity: 0;
+  transform: transLateY(100px);
+  animation:aparecer 2.5s forwards;
+}
+
+
+
+.imagem_caixa {
+  margin: 20px;
+}
+
+
+
+.Cardapios_preços {
+  font-size: 32px;
+  text-align: center;
+  margin: 20px 0 40px 0;
+  color: white;
+}
+
+
+
+.caixa_produto {
+  border: solid 1px #2C1A11;
+  border-radius: 19px;
+  height: 395px;
+  width: 300px;
+  text-align: left;
+  padding: 7px;
+  font-size: 20px;
+  margin: 10px 0 30px 0;
+  box-shadow: 0 0 20px 2px #2C1A11;
+  color: aliceblue;
+  animation: rolar 18s infinite;
+}
+
+
+
+.img3 {
+  border-radius: 20px;
+  margin: 8px 0 0 8px ;
+}
+
+
+
+.produto {
+  font-size: 24px;
+  margin: 10px 0 4px 15px;
+}
+
+
+
+.descrisão_produto {
+  margin: 4px 0 20px 15px;
+  font-size: 20px;
+  color: darkgray;
+  font-family: Georgia;
+}
+
+
+
+.preço {
+  margin: 7px 0 29px 15px;
+  font-size: 29px;
+  position: relative;
+}
+
+
+
+.pai2 {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+
+
+.duvidas {
+  color: white;
+  font-size: 27px;
+  margin: 80px 0 0 0;
+}
+
+
+
+
+.pedido {
+  text-decoration: none;
+  color: white;
+  background-color: #2C1A11;
+  border: solid 1px #2C1A11;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 40px 0 0 10px;
+  font-size: 22px;
+  box-shadow: 0 0 50px 3px black;
+}
+
+
+
+.telefone {
+  color: white;
+  font-size: 30px;
+  margin: 50px 0 7px 20px;
+}
+
+
+
+.email {
+  margin: 6px 0 120px 20px;
+  color: white;
+  font-size: 27px;
+}
+
+
+
+.mensagem {
+  color: white;
+  text-align: center;
+  margin: 50px 0 30px 0;
+}
+
+
+
+.onde_escrever {
+  color: white;
+  font-size: 23px;
+  background-color: black;
+  width: 430px;
+  height: 45px;
+  border: solid 1px white;
+  border-radius: 7px;
+  align-content: center;
+  margin: 1px 0 2px 243px;
+  outline: none;
+  opacity: 0;
+  transform: transLateY(100px);
+  animation:aparecer 2.5s forwards;
+}
+
+
+
+.area_de_texto {
+  font-size: 27px;
+  color: white;
+  width: 430px;
+  height: 170px;
+  background-color: black;
+  border: solid 1px white;
+  border-radius: 7px;
+  margin: 2px 0 28px 243px;
+  outline: none;
+  opacity: 0;
+  transform: transLateY(100px);
+  animation:aparecer 2.5s forwards;
+}
+
+
+
+.icone_final {
+  margin: 170px 20px 0 20px;
+  box-shadow: 0 0 30px 10px gray;
+  border-radius: 40px;
+  opacity: 0;
+  transform: transLateY(100px);
+  animation:aparecer 5.5s forwards;
+}
+
+
+
+.icone_final1 {
+  margin: 170px 20px 0 274px;
+  box-shadow: 0 0 30px 10px gray;
+  border-radius: 20px;
+  opacity: 0;
+  transform: transLateY(100px);
+  animation:aparecer 5.5s forwards;
+}
+
+
+
+.btl_final {
+  text-decoration: none;
+  color: white;
+  background-color: #2C1A11;
+  border: solid 1px #2C1A11;
+  border-radius: 27px;
+  padding: 15px;
+  font-size: 24px;
+  box-shadow: 0 0 30px 1px black;
+  margin: 20px 0 30px 238px;
+  opacity: 0;
+  transform: transLateY(100px);
+  animation:aparecer 6.5s forwards;
+}
+
+
+
+hr {
+  margin: 0;
+  box-shadow: 0 0 33px 26px #2C1A11;
+}
+
+
+
+
+
+
+
+@keyframes rolar{
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-205%);
+    }
+}
+
+
+
+
+@keyframes aparecer {
+  
+  to{
+    opacity: 1;
+    transform: transLateY(0)
+    
+  }
+  
+}
+
+
+
+
+@keyframes flutuar {
+    0% {
+        transform: translateY(0); /* Posição original */
+    }
+    50% {
+        transform: translateY(-45px); /* Sobe 15 pixels */
+    }
+    100% {
+        transform: translateY(1px); /* Volta para o lugar */
+    }
+}
