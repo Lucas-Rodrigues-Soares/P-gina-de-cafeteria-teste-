@@ -4,4 +4,5 @@ Uma página de uma cafeteria que tem cardápio, contatos e envio de mensagem (te
 
 https://cafeteria-digital-portfolio-lucas.netlify.app/
 
-![Texto alternativo se a imagem não carregar](Screenshot_20260603_134618_Opera.jpg)
+![Texto alternativo se a imagem não carregar](Screenshot_20260603_134618_Opera.jpg) height:"10px"
+![Texto alternativo se a imagem não carregar](Screenshot_20260603_134632_Opera.jpg)
