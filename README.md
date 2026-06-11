@@ -1,5 +1,5 @@
 
-# Landing Page - Cafeteria (apenas Front-end)
+# Landing Page - Cafeteria (Front-end)
 
 Uma página web moderna e responsiva desenvolvida para uma cafeteria, com foco em apresentar o cardápio e os canais de atendimento ao cliente.
 
