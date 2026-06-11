@@ -1,4 +1,4 @@
-# Pagina-de-cafeteria-teste-
+
 # Landing Page - Cafeteria
 
 Uma página web moderna e responsiva desenvolvida para uma cafeteria, com foco em apresentar o cardápio e os canais de atendimento ao cliente.
